@@ -6,7 +6,7 @@ Code:
 ```
 
 Build:
-```
+```clojure
 #TKEFPB    (defn  [])
 HRUP       (defn lookup [])
 ST-R       (defn lookup-str [])
