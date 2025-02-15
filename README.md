@@ -1,8 +1,8 @@
 Code:
 ```clojure
 (defn lookup-str [s theory]
- (let [entry {:outline (outline/str->outline s)}]
-  (lookup entry theory)))
+  (let [entry {:outline (outline/str->outline s)}]
+    (lookup entry theory)))
 ```
 
 Theoretical Strokes:
@@ -24,7 +24,7 @@ STAOR        (let [entry {:outline (outline/str)}]))
 #O           (let [entry {:outline (outline/str->)}]))
 +OUPBLT      (let [entry {:outline (outline/str->outline)}]
 -PBG   ;; Line down and indent
-#HRUP            (lookup)))
-*ERPBTD          (lookup entry)))
-*THAOERD         (lookup entry theory)))
+#HRUP          (lookup)))
+*ERPBTD        (lookup entry)))
+*THAOERD       (lookup entry theory)))
 ```
